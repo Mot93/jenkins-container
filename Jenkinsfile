@@ -15,7 +15,6 @@ pipeline {
                 
                 // Proof that we are working inside the container
                 sh 'cat /etc/os-release'
-                sh 'pwd'
                 sh 'ls -l'
 
                 // Executing the python script
